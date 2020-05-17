@@ -349,14 +349,14 @@
     -webkit-box-flex: 1;
         -ms-flex: 1 0 100%;
             flex: 1 0 100%;
-    position: absolute;
+    position: relative;
     overflow: hidden;
     background-color: #292929;
     border-radius: 0px 0px 50px 50px;
 
   }
 
-  .bottom a {
+  /* .bottom a {
     position: absolute;
   	display: inline-block;
   	white-space: nowrap;
@@ -364,7 +364,7 @@
     text-decoration: none;
   	-webkit-animation: floatText 120s infinite linear;
   	        animation: floatText 120s infinite linear;
-  }
+  } */
 
 
 /* NEWS & AUTHOR */
