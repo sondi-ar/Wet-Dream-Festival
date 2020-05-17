@@ -8,11 +8,6 @@
   src: url(Font/GaramondR.ttf);
 }
 
-@font-face {
-  font-family: Favorit-Italic;
-  src: url(http://godnattoslo.no/assets/fonts/FavoritStd-BookItalic.woff);
-}
-
 @-webkit-keyframes floatText {
 	 to {
 	   -webkit-transform: translateX(-90%);
