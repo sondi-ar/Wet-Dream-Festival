@@ -1,1 +1,2 @@
+ Foundation.addToJquery($
 $(document).foundation();
