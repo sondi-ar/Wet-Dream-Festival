@@ -91,7 +91,7 @@
   }
 
   h1 {
-    font: 5.5em/8em Mira;
+    font: 5vw Mira;
     /* letter-spacing: 1px; */
     text-transform: uppercase;
     color: #d1d1d1;
@@ -101,13 +101,13 @@
         -ms-flex-align: left;
             align-items: left;
   text-align: center !important;
-  margin: 13vw !important;
+  margin: 20vw !important;
   padding-top: .08em;
 
   }
 
   .left h1{
-    font: 3.7em/7em Mira;
+    font: 7vh Mira, normal;
     color: #292929;
     padding: .4em;
     -webkit-text-stroke: 1.5px #292929;
@@ -854,11 +854,12 @@
   }
 
 
+
 @media (max-width: 767.98px) {
 
   h1 {
-    font: 2.25em Mira;
-    margin: 0;
+    font: 5vw Mira;
+    margin: 0 ;
   }
 
   nav {
@@ -918,13 +919,10 @@
         -ms-writing-mode: lr-tb;
             writing-mode: horizontal-tb;
     margin: 1vh 1.60vh;
+    font-size: 7vw;
+    padding-left: 15vw;
   }
 
-  .left h1:first-of-type {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-  }
 
   .right {
     height: 72vh;
