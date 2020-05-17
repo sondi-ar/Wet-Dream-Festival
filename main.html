@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -13,6 +13,7 @@
         <meta property="og:url" content="">
         <meta property="og:type" content="website">
         <link rel="stylesheet" href="style/style.css">
+        <script src="javascript/cookieconsent.min.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital@0;1&display=swap" rel="stylesheet">
       </head>
@@ -28,8 +29,8 @@
 <nav>
   <ul>
     <li><a href="main.html" class="nav--active">① Info</a></li>
-    <li><a href="schedule/schedule.html">② Mapping The Festival </a></li>
-    <li><a href="CuK/CuK.html">③ Colt und Köcher</a></li>
+    <li><a href="schedule.html">② Mapping The Festival </a></li>
+    <li><a href="CuK.html">③ Colt und Köcher</a></li>
   </ul>
 </nav>
 
@@ -269,11 +270,11 @@
 </section>
 
 </main>
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.js"></script>
+<script src="https://www.universe.com/embed2.js" data-state=""></script>
 <script src="javascript/script.js"></script>
-
-<script type="text/javascript">
+<script>
   var slideIndex = 1;
   showSlides(slideIndex);
 
@@ -298,7 +299,7 @@
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += "active";
+    dots[slideIndex-1].className += " active";
   }
 </script>
 

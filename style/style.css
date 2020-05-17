@@ -349,7 +349,7 @@
     -webkit-box-flex: 1;
         -ms-flex: 1 0 100%;
             flex: 1 0 100%;
-    position: relative;
+    position: absolute;
     overflow: hidden;
     background-color: #292929;
     border-radius: 0px 0px 50px 50px;
@@ -424,7 +424,7 @@
     display: flex;
     width: calc(100% - 8vh);
     position: fixed;
-    background-color: #ff9ca9;
+    background-color: #d1d1d1;
   }
 
   .program__title a {
@@ -440,12 +440,13 @@
     width: calc(100%/3);
     height: 8vh;
     font-size: 2.25em;
-    border-right: 1px solid #000000;
-    border-bottom: 1px solid #000000;
+    color:#292929;
+    border-right: 3px solid #000000;
+    border-bottom: 3px solid #000000;
   }
 
-  .program__title a:last-of-type {
-    border-right: 0;
+  .program__title a:first-of-type {
+    border-left: 3px solid #000000;
   }
 
   .program__days {
@@ -463,25 +464,29 @@
   .program__single-day a {
     display: block;
     padding: 1.5vh;
-    border-right: 1px solid #000000;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000000;
+    border-right: 1.5px solid #000000;
+    border-left: 1.5px solid #000;
+    border-bottom: 3px solid #000000;
     margin-left: -1px;
+    color:#292929;
+
   }
 
-  .program__single-day:last-of-type a {
-    border-right: 0;
+  .program__single-day:first-of-type a {
+    border-left: 4px solid #000000;
   }
 
   .program__single-day p {
-    font-size: 1.4em;
+    font-size: 1em;
     width: 80%;
+    font-family: Arsenal;
   }
 
   .program__single-day h3 {
     margin: 0.25vh 0;
-    font-size: 2.25em;
+    font-size: 1.75em;
     width: 80%;
+    text-transform: uppercase;
   }
 
 
