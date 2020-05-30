@@ -385,6 +385,7 @@
     font: 5vh "miranormal", 'Alegreya Sans', sans-serif;
     color: #d1d1d1;
     text-align: center;
+    z-index: 9999;
   }
 
 #scene3d {
