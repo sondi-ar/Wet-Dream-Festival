@@ -385,7 +385,7 @@
 #scene3d {
   height: 74vh;
   width: 100vw;
-  /* position: absolute; */
+  position: absolute;
   z-index: 999;
 
 }
