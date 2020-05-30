@@ -362,7 +362,7 @@
   z-index: 99999;
 }
 
-.agree p {
+.agree a {
   font: 7vh "miranormal", 'Alegreya Sans', sans-serif;
   color: #292929;
 }
