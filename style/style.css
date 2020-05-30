@@ -386,7 +386,7 @@
   height: 74vh;
   width: 100vw;
   background-color: #d1d1d1;
-  position: absolute;
+  /* position: absolute; */
   z-index: 999;
 
 }
