@@ -359,6 +359,7 @@
 
 .agree {
   position: absolute;
+  z-index: 99999;
 }
 
 .agree p {
