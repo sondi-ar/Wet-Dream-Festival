@@ -391,15 +391,6 @@
 
 }
 
-.intro img{
-height:100vh;
-width:100vw;
-top: 1%;
-background-color: transparent;
-position: absolute;
-z-index: 999;
-}
-
 
 /* NEWS & AUTHOR */
 
