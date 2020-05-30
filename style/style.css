@@ -360,6 +360,7 @@
 .agree {
   position: absolute;
   z-index: 99999;
+  text-align: right;
 }
 
 .agree a {
