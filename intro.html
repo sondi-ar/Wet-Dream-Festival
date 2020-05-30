@@ -119,7 +119,7 @@
 
       renderer = new THREE.WebGLRenderer({ alpha: true });
       renderer.setPixelRatio(window.devicePixelRatio);
-      renderer.setSize(CANVAS_WIDTH, CANVAS_HEIGHT);
+      renderer.setSize(CANVAS_WIDTH*2, CANVAS_HEIGHT*2);
       renderer.setClearColor(new THREE.Color(0x3e2e2e),0);
 
       // container.appendChild(renderer.domElement);
@@ -132,7 +132,6 @@
       controls.dampingFactor = 0.25;
       controls.enableZoom = false;
 
-      /* Events */
 
 
   }
