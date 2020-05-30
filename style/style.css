@@ -357,7 +357,7 @@
     display: none;
   }
 
-.agree {
+/* .agree {
   position: absolute;
   z-index: 99999;
   top: 70%;
@@ -367,7 +367,7 @@
 .agree a {
   font: 5vh "miranormal", 'Alegreya Sans', sans-serif;
   color: #292929;
-}
+} */
 
 /* BOTTOM SECTION */
 
