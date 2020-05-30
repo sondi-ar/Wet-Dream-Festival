@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'miranormal';
-    src: url('mira____-webfont.woff2') format('woff2'),
-         url('mira____-webfont.woff') format('woff');
+    src: url('Font/mira____-webfont.woff2') format('woff2'),
+         url('Font/mira____-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
