@@ -360,11 +360,12 @@
 .agree {
   position: absolute;
   z-index: 99999;
-  text-align: right;
+  margin-top: 70%;
+  margin-left: 70%;
 }
 
 .agree a {
-  font: 7vh "miranormal", 'Alegreya Sans', sans-serif;
+  font: 5vh "miranormal", 'Alegreya Sans', sans-serif;
   color: #292929;
 }
 
