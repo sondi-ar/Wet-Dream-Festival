@@ -360,8 +360,8 @@
 .agree {
   position: absolute;
   z-index: 99999;
-  margin-top: 70%;
-  margin-left: 70%;
+  top: 70%;
+  left: 70%;
 }
 
 .agree a {
