@@ -357,6 +357,14 @@
     display: none;
   }
 
+.agree {
+  position: absolute;
+}
+
+.agree p {
+  font: 7vh "miranormal", 'Alegreya Sans', sans-serif;
+  color: #292929;
+}
 
 /* BOTTOM SECTION */
 
