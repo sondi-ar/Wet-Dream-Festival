@@ -357,18 +357,6 @@
     display: none;
   }
 
-/* .agree {
-  position: absolute;
-  z-index: 99999;
-  top: 70%;
-  left: 70%;
-}
-
-.agree a {
-  font: 5vh "miranormal", 'Alegreya Sans', sans-serif;
-  color: #292929;
-} */
-
 /* BOTTOM SECTION */
 
 
@@ -391,6 +379,12 @@
     background-color: #292929;
     border-radius: 0px 0px 50px 50px;
 
+  }
+
+  .bottom a{
+    font: 5vh "miranormal", 'Alegreya Sans', sans-serif;
+    color: #d1d1d1;
+    text-align: center;
   }
 
 #scene3d {
