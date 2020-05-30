@@ -385,9 +385,17 @@
 #scene3d {
   height: 74vh;
   width: 100vw;
-  background-color: #d1d1d1;
   /* position: absolute; */
   z-index: 999;
+
+}
+
+#back {
+  height: 74vh;
+  width: 100vw;
+  background-color: #d1d1d1;
+  /* position: absolute; */
+
 
 }
 
